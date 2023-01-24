@@ -1,0 +1,14 @@
+* {
+  font-family: "EB Garamond", serif !important;
+}
+
+.nav ul li {
+  font-size: 1rem;
+  color: #707070;
+}
+
+.btn-custom {
+  background: #b68c5a;
+  color: #ffff;
+  font-weight: 600;
+}
