@@ -19,9 +19,9 @@
     <link rel="stylesheet" href="styles/custom-style.css" />
   </head>
 
-  <body class="container container-fluid bg-info">
-    <header class="bg-warning">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <body>
+    <header>
+      <nav class="container container-fluid navbar navbar-expand-lg">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"
             ><img class="img-fluid" src="images/logo2.png" alt=""
@@ -105,7 +105,7 @@
       </nav>
 
       <section
-        class="banner-custom rounded-2 d-flex justify-content-center align-items-center"
+        class="banner-custom container container-fluid rounded-2 d-flex justify-content-center align-items-center"
       >
         <div class="mx-2">
           <h1 class="display-2 text-center mb-4">
@@ -136,7 +136,7 @@
       </section>
     </header>
     <!-- main section area strats -->
-    <main class="py-5">
+    <main class="py-5 container container-fluid">
       <!-- law section area starts -->
       <section>
         <h1 class="display-6 text-center mt-5 mb-4">The Legal Practice Area</h1>
@@ -645,7 +645,23 @@
       <!-- faq sextion area ends -->
     </main>
     <!-- main section area ends -->
-    <footer></footer>
+    <footer>
+      <div class="row">
+        <div class="col-12 col-sm-4 col-md-3 col-lg-3">
+          <div>
+            <img src="images/logo2.png" alt="" />
+          </div>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour.
+          </p>
+        </div>
+        <div class="col-12 col-sm-4 col-md-3 col-lg-3"></div>
+        <div class="col-12 col-sm-4 col-md-3 col-lg-3"></div>
+        <div class="col-12 col-sm-4 col-md-3 col-lg-3"></div>
+      </div>
+    </footer>
 
     <!-- booststrap js file -->
     <script src="js/bootstrap.min.js"></script>

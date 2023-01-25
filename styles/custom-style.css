@@ -115,3 +115,11 @@ main p {
   background-color: #f3f3f3;
   border: 1px solid #e7e7e7;
 }
+
+footer {
+  background: #111111;
+}
+
+footer p {
+  color: #cfcfcf;
+}
