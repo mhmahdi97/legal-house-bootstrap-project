@@ -60,3 +60,58 @@ main p {
   background: linear-gradient(180deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
   border: 1px solid #e7e7e7;
 }
+
+/* custom styles to clients section */
+/* carousel */
+
+.slider-img-1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/slider-imges/slider-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+}
+
+.slider-img-2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/slider-imges/slider-2.png);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.slider-img-3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/slider-imges/slider-3.png);
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.client-img {
+  width: 70px;
+  height: 70px;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+}
+
+.client-img img {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 50%;
+}
+
+.client-description > p {
+  color: #f3f3f3;
+}
+
+.client-title > h4,
+.client-title > p {
+  color: #ffff;
+}
+
+/* custom styles to faq section */
+.faq-img-container img {
+  width: 100%;
+  height: 100%;
+}
