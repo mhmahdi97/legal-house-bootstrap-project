@@ -110,4 +110,8 @@ main p {
   color: #ffff;
 }
 
-/* custom styles to faq section */
+/* custom styles to contact section */
+.contact-card {
+  background-color: #f3f3f3;
+  border: 1px solid #e7e7e7;
+}
