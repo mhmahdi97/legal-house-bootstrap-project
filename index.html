@@ -404,6 +404,14 @@
         </p>
 
         <div class="row mt-5">
+          <div class="col-12 col-sm-6 col-md-6 col-lg-6">
+            <img
+              class="img-fluid ms-5"
+              src="images/faq-compressed.png"
+              alt=""
+            />
+          </div>
+
           <div class="col-12 col-sm-6 col-md-4 col-lg-6">
             <!-- accordian starts -->
             <div class="accordion" id="accordionExample">
@@ -417,7 +425,7 @@
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    Accordion Item #1
+                    1. What is the difference between css flexbox and grid?
                   </button>
                 </h2>
                 <div
@@ -427,15 +435,17 @@
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                    <strong>This is the first item's accordion body.</strong> It
-                    is shown by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                    <strong
+                      >The main difference between css flexbox and grid is
+                      that</strong
+                    >
+                    flexbox was mainly designed to arrange layout in one
+                    dimension either a row or collumn. On the other hand grid
+                    was designed for two-dimensional layout - rows, and columns
+                    at the same time. The two specifications share some common
+                    features, however, and if you have already learned how to
+                    use flexbox, the similarities should help you get to grips
+                    with grid.
                   </div>
                 </div>
               </div>
@@ -449,7 +459,7 @@
                     aria-expanded="false"
                     aria-controls="collapseTwo"
                   >
-                    Accordion Item #2
+                    2. What is the purpose of media query?
                   </button>
                 </h2>
                 <div
@@ -459,15 +469,15 @@
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                    <strong>This is the second item's accordion body.</strong>
-                    It is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                    <strong
+                      >Media queries are a key part of responsive web
+                      design,</strong
+                    >
+                    as they allow you to create different layouts depending on
+                    the size of the viewport, but they can also be used to
+                    detect other things about the environment your site is
+                    running on, for example whether the user is using a
+                    touchscreen rather than a mouse.
                   </div>
                 </div>
               </div>
@@ -481,7 +491,7 @@
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    Accordion Item #3
+                    3. What is box model and how does it works?
                   </button>
                 </h2>
                 <div
@@ -491,23 +501,50 @@
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                    <strong>This is the third item's accordion body.</strong> It
-                    is hidden by default, until the collapse plugin adds the
-                    appropriate classes that we use to style each element. These
-                    classes control the overall appearance, as well as the
-                    showing and hiding via CSS transitions. You can modify any
-                    of this with custom CSS or overriding our default variables.
-                    It's also worth noting that just about any HTML can go
-                    within the <code>.accordion-body</code>, though the
-                    transition does limit overflow.
+                    <strong>In CSS, the term "box model" is used</strong> It
+                    when talking about design and layout. The CSS box model is
+                    essentially a box that wraps around every HTML element. It
+                    consists of: margins, borders, padding, and the actual
+                    content.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseFour"
+                    aria-expanded="false"
+                    aria-controls="collapseFour"
+                  >
+                    4. What is semantic tag?
+                  </button>
+                </h2>
+                <div
+                  id="collapseFour"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="headingThree"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    A semantic tag
+                    <strong
+                      >clearly describes its meaning to both the browser and the
+                      developer.</strong
+                    >
+                    The semantic HTML tags help the search engines and other
+                    user devices to determine the importance and context of web
+                    pages. The pages made with semantic elements are much easier
+                    to read. It has greater accessibility. It offers a better
+                    user experience.
                   </div>
                 </div>
               </div>
             </div>
             <!-- accordian ends -->
-          </div>
-          <div class="col-12 col-sm-6 col-md-6 col-lg-6 faq-image-container">
-            <img class="img-fluid" src="images/faq.png" alt="" />
           </div>
         </div>
       </section>
