@@ -1,5 +1,16 @@
+/* added custom font family */
 * {
   font-family: "EB Garamond", serif !important;
+}
+
+/* custom common heading styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 800 !important;
 }
 
 .h-fit-content {
@@ -7,17 +18,20 @@
   background-color: rgba(242, 95, 95, 0.2);
 }
 
+/* custom nav text styles */
 .nav ul li {
   font-size: 1rem;
   color: #707070;
 }
 
+/* button custom styles */
 .btn-custom {
   background: #b68c5a;
   color: #ffff;
   font-weight: 600;
 }
 
+/* custom banner styles */
 .banner-custom {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
     url(../images/banner.png);
@@ -28,9 +42,21 @@
 
 .banner-custom h1 {
   color: #ffff;
-  font-weight: 800;
 }
 
 .banner-custom p {
   color: #e7e7e7;
+}
+
+/* custom styles to main section */
+main h1 {
+  color: #414040;
+}
+
+main p {
+  color: #707070;
+}
+.cards-custom {
+  background: linear-gradient(180deg, #f3f3f3 0%, rgba(243, 243, 243, 0) 100%);
+  border: 1px solid #e7e7e7;
 }
